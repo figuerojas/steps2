@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: lightgray;
+
+}
+
+.main {
+    max-width: 980px;
+    padding: 2rem;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 1px 1px 5px black;
+    min-height: 50vh;
+}
+
+.header {
+    padding: 5rem;
+    background-color: black;
+    background-image: url("../img/george-lemon-2zH2tDtmGro-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.form {
+     width: 100%;
+     display: flex;
+     gap: .3rem;
+}
+.search {
+    flex-grow: 1;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
